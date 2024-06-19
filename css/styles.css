@@ -3622,6 +3622,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background: #c3c6d6;
 }
 
 .nav-link {
@@ -10833,7 +10834,9 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
-  }
+ }
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 }
 body,
 html {
@@ -10891,6 +10894,7 @@ html {
   transform: translateX(250px);
   background: #1D809F;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+  
 }
 
 .sidebar-nav {
@@ -10933,11 +10937,13 @@ html {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
+  
 }
 
 .sidebar-nav > .sidebar-brand a {
   color: #fff;
   text-decoration: none;
+  
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -11037,6 +11043,7 @@ footer.footer .social-link:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
@@ -11120,46 +11127,49 @@ footer.footer .social-link:hover {
 .service-icon {
   background-color: #fff;
   color: #1D809F;
-  height: 7rem;
+  height: 5rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-.sec 
+.nav-Home
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    background: #5c544e;
-  
-}
-header
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
+    /* min-height:10vh; */
+    /* padding: 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background: #5c544e; */
+    /* background:#3f51b5; */
+    background: #c3c6d6 ; 
 }
+/* header
+{
+    position: relative;
+
+    top: 1vh;
+    left: 1vh;
+    width: 100%;
+    padding: 10vh 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8ec0cf;
+}*/
 /* header .logo
 {
     position: relative;
-    max-width: 120px;
-} */
+    min-width: 50%;
+}  */
 
 header ul
 {
     position: relative;
-    display: flex;
+    /* display: flex; */
 }
 header ul li
 {
@@ -11167,23 +11177,25 @@ header ul li
 }
 header ul li a
 {
-  display: inline-block;
+  /* display: inline-flexbox; */
   color: #fff;
-  font-weight: 400;
-  margin-left: 30px;
-  /* margin-right: 30px; */
+  font-weight:100;
+  margin-left: 20vh;
   text-decoration: none;
-    text-align: right;
+    /* text-align:center; */
 } 
-.sec a:hover
+.nav-Home a:hover
 {
     color:#fff ;
   
 }
-.sec li a:hover
+.nav-Home li a:hover
 {
-    color:  #0dcaf0;
-  
+    color:  #3f51b5;
+    font-weight:bold;
+    
+
+  /* ver que sea bold */
 }
 /* .content  h2
 {
@@ -11200,7 +11212,7 @@ header ul li a
 {
     color: #fff;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 5%;
 
 }
 .content .textBox 
@@ -11246,27 +11258,31 @@ header ul li a
 }
  .logo
  {
-    filter: invert(1);
-    max-width: 90%;
-    max-height: 90%;
+    /* filter: invert(1); */
+    /* position: relative;
+    align-items: center; */
+    max-width: 15%;
+    max-height: 15%;
+    margin:5vh;
 
  }
- .more
+ .conocerMas
  {
-    margin: 20px 180px;
+    margin: 20px 20px;
+    /* background-color: #3f51b5; */
  }
- .more:hover a
+ .conocerMas:hover a
  {
-    background-color: #097d94;
+    background-color: #c3c6d6 ;
  }
  .sec img  .logo 
  {
     align-items: center;
  }
- #btn.carrera a:hover
+ /* #btn.carrera a:hover
  {
   color: white;
- }
+ } */
 
  /* instituto */
  /* carrusel */
@@ -11278,7 +11294,7 @@ header ul li a
     padding: 2.5rem;
     /* space: .5rem; */
 }
-#propuesta
+/* #propuesta
 {
   margin-top: 5%;
   margin-bottom: 0;
@@ -11286,12 +11302,21 @@ header ul li a
 #datos
 {
   margin-top: 10%;
-}
-.caption #program
+} */
+/* .caption #program
 {
   background-image: url('https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-analisis-desarrollo-y-programacion-de-aplicaciones/');
-}
+} */
 .map
 {
   margin-bottom: 5%;
 }
+.Inicio-body
+{
+  background:#3f51b5;
+  /* background:#dee1ef ; */
+}
+/* #f70c26 //Rojo
+#3f51b5  //Azul
+#c3c6d6  //GrisLavanda
+#dee1ef  //  Gris Lavanda claro */
