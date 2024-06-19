@@ -10892,7 +10892,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  /* background: #1D809F; */
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   
 }
@@ -10915,8 +10915,8 @@ html {
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  color:  #3f51b5;
+  /* background: rgba(255, 255, 255, 0.2); */
 }
 
 .sidebar-nav li a:active,
@@ -10926,9 +10926,9 @@ html {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  
-  background-color: #3dd5f3;
-  background: rgba(22, 199, 16, 0.1);
+
+  background-color: #3f51b5;
+  /* background: rgba(22, 199, 16, 0.1); */
 
 /*  */
   
@@ -10946,7 +10946,7 @@ html {
   
 }
 
-.sidebar-nav > .sidebar-brand a:hover {
+.sidebar-nav> .sidebar-brand a:hover {
   color: #fff;
   background: none;
 }
@@ -10956,6 +10956,11 @@ html {
   width: 250px;
   transition: all 0.4s ease 0s;
 }
+.sidebar-nav> .item :hover {
+  color: #3f51b5;
+  background: none;
+}
+
 
 /* .menu-toggle {
   position: fixed;
@@ -11059,14 +11064,14 @@ footer.footer .social-link:hover {
   }
 }
 /* OFERTA ACADÉMICA */
-.portfolio-item {
+.galeria-item {
   display: block;
   position: relative;
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
 }
-.portfolio-item .caption {
+.galeria-item .caption {
   display: flex;
   height: 100%;
   width: 100%;
@@ -11076,48 +11081,48 @@ footer.footer .social-link:hover {
   bottom: 0;
   z-index: 1;
 }
-.portfolio-item .caption .caption-content {
+.galeria-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
-.portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
+.galeria-item .caption .caption-content h2, .galeria-item .caption .caption-content .h2 {
   font-size: 0.9rem;
   text-transform: uppercase;
 }
-.portfolio-item .caption .caption-content p {
+.galeria-item .caption .caption-content p {
   font-weight: 300;
   font-size: 0.8rem;
 }
 @media (min-width: 992px) {
-  .portfolio-item {
+  .galeria-item {
     max-width: none;
     margin: 0;
   }
-  .portfolio-item .caption {
+  .galeria-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
     transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(0px);
             clip-path: inset(0px);
   }
-  .portfolio-item .caption .caption-content {
+  .galeria-item .caption .caption-content {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
-  .portfolio-item img {
+  .galeria-item img {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
             clip-path: inset(-1px);
   }
-  .portfolio-item:hover img {
+  .galeria-item:hover img {
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
-  .portfolio-item:hover .caption {
+  .galeria-item:hover .caption {
     background-color:#5c544e;
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
@@ -11286,13 +11291,13 @@ header ul li a
 
  /* instituto */
  /* carrusel */
-.carousel-slide-item
+.carousel-inner-item
 {
- width: 100%;
- transition-duration: .2s;
+ width:100%;
+ transition-duration: 60s;
 
-    padding: 2.5rem;
-    /* space: .5rem; */
+    padding: 1rem;
+    /* space: .5rem */
 }
 /* #propuesta
 {
@@ -11313,9 +11318,41 @@ header ul li a
 }
 .Inicio-body
 {
-  background:#3f51b5;
-  /* background:#dee1ef ; */
+  /* background:#3f51b5; */
+  background:#dee1ef ;
 }
+#btnProductos
+{
+  background-color: #3f51b5;
+ 
+}
+#btnProductos:hover
+{
+  background-color:#c3c6d6 ;
+ 
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  /* background: rgba(52, 58, 64, 0.5); */
+  background:#c3c6d6 ;
+  line-height: 50px;
+  z-index: 999;
+ }
+ .menu-toggle:focus, .menu-toggle:hover {
+  color: #fff;
+ }
+ 
+ /* ver barra */
+ .menu-toggle:hover,.menu-toggle:focus {
+  background:#c3c6d6 ;
+ }
 /* #f70c26 //Rojo
 #3f51b5  //Azul
 #c3c6d6  //GrisLavanda
